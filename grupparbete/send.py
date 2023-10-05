@@ -28,11 +28,11 @@ client.loop_start()
 
 # Läs in användarnamn från användaren
 username = input("Ange användarnamn: ")
-# Läs in förskjutning från användaren
-shift = int(input("Ange en krypterings-förskjutning mellan 0 - 28: "))
 
 try:
     while True:
+        # Läs in förskjutning från användaren
+        shift = int(input("Ange en krypterings-förskjutning mellan 0 - 28: "))
         # Läs in text från användaren
         message = input("Ange meddelande (eller tryck Enter för att avsluta): ")
         
